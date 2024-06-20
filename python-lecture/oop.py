@@ -17,15 +17,17 @@ class Bike:
         print('gear')
 
 myBike = Bike()
+friendBike = Bike()
+hisBike = Bike()
+
 print(myBike.color)
-print(myBike.weight)
+print(friendBike.color)
 
 myBike.color = 'red'
-print(myBike.color)
 
-myBike.drive()
-myBike.brake()
-myBike.gear()
+print(myBike.color)
+print(friendBike.color)
+
 
 
 
